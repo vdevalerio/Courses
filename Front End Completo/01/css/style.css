@@ -1,14 +1,49 @@
 .menu {
-	margin: auto;
-	background-color: red;
 	width: 500px;
+
+	margin: auto;
+	
+	background-color: red;
+
 	text-align: center;
 }
 
 .menu > a {
-	text-decoration: none;
+	margin: 0 10px;
+
 	font-size: 20px;
 	font-weight: bold;
 	color: white;
-	margin: 0 10px;
+	text-decoration: none;
+}
+
+.horizontal-itens {
+	width: 1000px;
+	height: 120px;
+	
+	margin: 30px auto;
+
+	background-color: green;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.itens-container {
+	width: 2500px;
+}
+
+.item {
+	width: 100px;
+	height: 100px;
+
+	background-color: red;
+	border-radius: 50px;
+
+	display: inline-block;
+	margin: 10px;
+}
+
+.item > p {
+	text-align: center;
+	vertical-align: text-bottom;
 }
