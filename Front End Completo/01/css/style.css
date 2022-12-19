@@ -1,0 +1,14 @@
+.menu {
+	margin: auto;
+	background-color: red;
+	width: 500px;
+	text-align: center;
+}
+
+.menu > a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin: 0 10px;
+}
